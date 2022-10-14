@@ -1,0 +1,68 @@
+Neural networks, also known as artificial neural networks (ANNs) or simulated neural networks (SNNs), are a subset of machine learning and are at the heart of deep learning algorithms. Their name and structure are inspired by the human brain, mimicking the way that biological neurons signal to one another.
+
+Artificial neural networks (ANNs) are comprised of a node layers, containing an input layer, one or more hidden layers, and an output layer. Each node, or artificial neuron, connects to another and has an associated weight and threshold. If the output of any individual node is above the specified threshold value, that node is activated, sending data to the next layer of the network. Otherwise, no data is passed along to the next layer of the network.
+
+An ANN usually involves a large number of processors operating in parallel and arranged in tiers. The first tier receives the raw input information -- analogous to optic nerves in human visual processing. Each successive tier receives the output from the tier preceding it, rather than the raw input -- in the same way neurons further from the optic nerve receive signals from those closer to it. The last tier produces the output of the system.
+
+Each processing node has its own small sphere of knowledge, including what it has seen and any rules it was originally programmed with or developed for itself. The tiers are highly interconnected, which means each node in tier n will be connected to many nodes in tier n-1 -- its inputs -- and in tier n+1, which provides input data for those nodes. There may be one or multiple nodes in the output layer, from which the answer it produces can be read.
+
+Artificial neural networks are notable for being adaptive, which means they modify themselves as they learn from initial training and subsequent runs provide more information about the world. The most basic learning model is centered on weighting the input streams, which is how each node weights the importance of input data from each of its predecessors. Inputs that contribute to getting right answers are weighted higher.
+
+How neural networks learn
+
+Typically, an ANN is initially trained or fed large amounts of data. Training consists of providing input and telling the network what the output should be. For example, to build a network that identifies the faces of actors, the initial training might be a series of pictures, including actors, non-actors, masks, statuary and animal faces. Each input is accompanied by the matching identification, such as actors' names or "not actor" or "not human" information. Providing the answers allows the model to adjust its internal weightings to learn how to do its job better.
+
+For example, if nodes David, Dianne and Dakota tell node Ernie the current input image is a picture of Brad Pitt, but node Durango says it is Betty White, and the training program confirms it is Pitt, Ernie will decrease the weight it assigns to Durango's input and increase the weight it gives to that of David, Dianne and Dakota.
+
+In defining the rules and making determinations -- that is, the decision of each node on what to send to the next tier based on inputs from the previous tier -- neural networks use several principles. These include gradient-based training, fuzzy logic, genetic algorithms and Bayesian methods. They may be given some basic rules about object relationships in the data being modeled.
+
+For example, a facial recognition system might be instructed, "Eyebrows are found above eyes," or "Moustaches are below a nose. Moustaches are above and/or beside a mouth." Preloading rules can make training faster and make the model more powerful sooner. But it also builds in assumptions about the nature of the problem, which may prove to be either irrelevant and unhelpful or incorrect and counterproductive, making the decision about what, if any, rules to build in very important.
+
+Further, the assumptions people make when training algorithms cause neural networks to amplify cultural biases. Biased data sets are an ongoing challenge in training systems that find answers on their own by recognizing patterns in data. If the data feeding the algorithm isn't neutral -- and almost no data is -- the machine propagates bias.
+Types of neural networks
+
+Neural networks are sometimes described in terms of their depth, including how many layers they have between input and output, or the model's so-called hidden layers. This is why the term neural network is used almost synonymously with deep learning. They can also be described by the number of hidden nodes the model has or in terms of how many inputs and outputs each node has. Variations on the classic neural network design allow various forms of forward and backward propagation of information among tiers.
+
+Specific types of artificial neural networks include:
+
+    Feed-forward neural networks: one of the simplest variants of neural networks. They pass information in one direction, through various input nodes, until it makes it to the output node. The network may or may not have hidden node layers, making their functioning more interpretable. It is prepared to process large amounts of noise. This type of ANN computational model is used in technologies such as facial recognition and computer vision.
+    Recurrent neural networks: more complex. They save the output of processing nodes and feed the result back into the model. This is how the model is said to learn to predict the outcome of a layer. Each node in the RNN model acts as a memory cell, continuing the computation and implementation of operations. This neural network starts with the same front propagation as a feed-forward network, but then goes on to remember all processed information in order to reuse it in the future. If the network's prediction is incorrect, then the system self-learns and continues working towards the correct prediction during backpropagation. This type of ANN is frequently used in text-to-speech conversions.
+    Convolutional neural networks: one of the most popular models used today. This neural network computational model uses a variation of multilayer perceptronsand contains one or more convolutional layers that can be either entirely connected or pooled. These convolutional layers create feature maps that record a region of image which is ultimately broken into rectangles and sent out for nonlinear The CNN model is particularly popular in the realm of image recognition; it has been used in many of the most advanced applications of AI, including facial recognition, text digitization and natural language processing. Other uses include paraphrase detection, signal processing and image classification.
+    Deconvolutional neural networks: utilize a reversed CNN model process. They aim to find lost features or signals that may have originally been considered unimportant to the CNN system's task. This network model can be used in image synthesis and analysis.
+    Modular neural networks: contain multiple neural networks working separately from one another. The networks do not communicate or interfere with each other's activities during the computation process. Consequently, complex or big computational processes can be performed more efficiently.
+
+Advantages of artificial neural networks
+
+Advantages of artificial neural networks include:
+
+    Parallel processing abilities mean the network can perform more than one job at a time.
+    Information is stored on an entire network, not just a database.
+    The ability to learn and model nonlinear, complex relationships helps model the real-life relationships between input and output.
+    Fault tolerance means the corruption of one or more cells of the ANN will not stop the generation of output.
+    Gradual corruption means the network will slowly degrade over time, instead of a problem destroying the network instantly.
+    The ability to produce output with incomplete knowledge with the loss of performance being based on how important the missing information is.
+    No restrictions are placed on the input variables, such as how they should be distributed.
+    Machine learning means the ANN can learn from events and make decisions based on the observations.
+    The ability to learn hidden relationships in the data without commanding any fixed relationship means an ANN can better model highly volatile data and non-constant variance.
+    The ability to generalize and infer unseen relationships on unseen data means ANNs can predict the output of unseen data.
+
+Disadvantages of artificial neural networks
+
+The disadvantages of ANNs include:
+
+    The lack of rules for determining the proper network structure means the appropriate artificial neural network architecture can only be found through trial and error and experience.
+    The requirement of processors with parallel processing abilities makes neural networks hardware-dependent.
+    The network works with numerical information, therefore all problems must be translated into numerical values before they can be presented to the ANN.
+    The lack of explanation behind probing solutions is one of the biggest disadvantages in ANNs. The inability to explain the why or how behind the solution generates a lack of trust in the network.
+
+Applications of artificial neural networks
+
+Image recognition was one of the first areas to which neural networks were successfully applied, but the technology uses have expanded to many more areas, including:
+
+    Chatbots
+    Natural language processing, translation and language generation
+    Stock market prediction
+    Delivery driver route planning and optimization
+    Drug discovery and development
+
+
