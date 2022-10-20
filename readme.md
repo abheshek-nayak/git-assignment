@@ -1,6 +1,6 @@
 ## GitHub README File
 ## :point_right: Task 1: -<br>
-15 git commands (https://github.com/abheshek-nayak/git-assignment/blob/main/Assignment%201.pdf) :heavy_check_mark: <br>
+[15 git commands](https://github.com/abheshek-nayak/git-assignment/blob/main/Assignment1.md) :heavy_check_mark: <br>
 ## :point_right: Task 2:
 Proper open source structure :heavy_check_mark: <br>
 Proper Readme :heavy_check_mark: <br>
